@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Button button4 = (Button) findViewById(R.id.button4);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setWallPaper(4);
